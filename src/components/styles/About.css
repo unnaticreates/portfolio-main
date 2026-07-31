@@ -1,0 +1,152 @@
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: var(--cWidth);
+  max-width: 1400px;
+  margin: auto;
+  padding: 120px 0 80px 0;
+  z-index: 10;
+}
+
+.about-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.about-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.about-header .title {
+  font-size: 42px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-weight: 600;
+  background: linear-gradient(135deg, #ffffff 40%, #c481ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0 0 10px 0;
+}
+
+.about-divider {
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #c481ff, #7f40ff);
+  border-radius: 4px;
+}
+
+.about-bio {
+  max-width: 900px;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 300;
+  color: #d1cbd8;
+  margin: 0 0 50px 0;
+  text-align: center;
+}
+
+.about-bio span {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.about-bio strong {
+  color: var(--accentColor);
+  font-weight: 600;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  width: 100%;
+  max-width: 1100px;
+  margin-bottom: 50px;
+}
+
+.about-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(196, 129, 255, 0.15);
+  border-radius: 16px;
+  padding: 30px 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(196, 129, 255, 0.5);
+  box-shadow: 0 10px 30px rgba(196, 129, 255, 0.15);
+}
+
+.card-icon {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.about-card h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0 0 10px 0;
+  letter-spacing: 1px;
+}
+
+.about-card p {
+  font-size: 15px;
+  line-height: 22px;
+  color: #a8a2b5;
+  margin: 0;
+  font-weight: 300;
+}
+
+.about-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  max-width: 900px;
+}
+
+.about-badge {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 20px;
+  background: rgba(196, 129, 255, 0.08);
+  border: 1px solid rgba(196, 129, 255, 0.3);
+  color: #e5d8ff;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.about-badge:hover {
+  background: rgba(196, 129, 255, 0.25);
+  border-color: var(--accentColor);
+  transform: translateY(-2px);
+}
+
+@media only screen and (max-width: 768px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+  .about-header .title {
+    font-size: 32px;
+  }
+  .about-bio {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}

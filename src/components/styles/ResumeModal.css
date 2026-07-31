@@ -1,0 +1,217 @@
+.resume-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(10, 10, 15, 0.85);
+  backdrop-filter: blur(12px);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  animation: fadeIn 0.3s ease;
+}
+
+.resume-modal-content {
+  background: #14141d;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 20px;
+  width: 100%;
+  max-width: 850px;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7), 0 0 30px rgba(108, 92, 231, 0.2);
+  color: #e0e0e0;
+  display: flex;
+  flex-direction: column;
+}
+
+.resume-modal-header {
+  padding: 24px 30px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background: #14141d;
+  z-index: 10;
+}
+
+.resume-modal-header h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+}
+
+.resume-modal-header h2 span {
+  color: #6c5ce7;
+}
+
+.resume-modal-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.resume-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  border: none;
+}
+
+.resume-btn.primary {
+  background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+  color: #ffffff;
+  box-shadow: 0 4px 15px rgba(108, 92, 231, 0.4);
+}
+
+.resume-btn.primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(108, 92, 231, 0.6);
+}
+
+.resume-close-btn {
+  background: rgba(255, 255, 255, 0.08);
+  border: none;
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.resume-close-btn:hover {
+  background: rgba(235, 77, 75, 0.8);
+}
+
+.resume-modal-body {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.resume-contact-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 14px 20px;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  color: #b2bec3;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.resume-contact-bar span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.resume-section-box h3 {
+  font-size: 1.25rem;
+  color: #a29bfe;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 1px solid rgba(162, 155, 254, 0.2);
+  padding-bottom: 6px;
+}
+
+.resume-item {
+  margin-bottom: 16px;
+}
+
+.resume-item-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.resume-item-top h4 {
+  font-size: 1.1rem;
+  color: #ffffff;
+  margin: 0;
+}
+
+.resume-item .badge {
+  background: rgba(108, 92, 231, 0.25);
+  color: #a29bfe;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.resume-item .location {
+  font-size: 0.85rem;
+  color: #818e9b;
+  margin: 2px 0 8px 0;
+}
+
+.resume-item ul {
+  padding-left: 20px;
+  margin: 0;
+  color: #b2bec3;
+  font-size: 0.92rem;
+}
+
+.resume-item ul li {
+  margin-bottom: 4px;
+}
+
+.resume-skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.resume-skills-tags span {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 6px 14px;
+  border-radius: 30px;
+  font-size: 0.85rem;
+  color: #dfe6e9;
+  transition: all 0.2s ease;
+}
+
+.resume-skills-tags span:hover {
+  background: rgba(108, 92, 231, 0.4);
+  border-color: #6c5ce7;
+}
+
+.resume-cert-list {
+  padding-left: 20px;
+  color: #b2bec3;
+  font-size: 0.92rem;
+}
+
+.resume-cert-list li {
+  margin-bottom: 8px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.96); }
+  to { opacity: 1; transform: scale(1); }
+}
