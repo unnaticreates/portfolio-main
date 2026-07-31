@@ -1,4 +1,4 @@
-# 🌐 Unnati Parmar | Portfolio
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/d5bfe84d-8b6c-43e2-9a31-88a9f058abe2" /># 🌐 Unnati Parmar | Portfolio
 
 Welcome to my personal portfolio repository!
 
@@ -76,9 +76,7 @@ You can add screenshots of your portfolio here.
 
 Example:
 
-![Portfolio Preview](images/portfolio-preview.png)
-
-Or upload a screenshot directly to GitHub and replace the image link.
+![Portfolio Preview](port.png)
 
 ---
 
@@ -86,9 +84,8 @@ Or upload a screenshot directly to GitHub and replace the image link.
 
 GitHub Pages:
 
-https://yourusername.github.io/portfolio/
+https://unnaticreates.github.io/portfolio/
 
-*(Replace with your actual GitHub Pages URL after deployment.)*
 
 ---
 
@@ -132,13 +129,13 @@ Thank you for respecting my work.
 # 📬 Contact
 
 GitHub:
-https://github.com/yourusername
+https://github.com/unnaticreates
 
 LinkedIn:
-https://linkedin.com/in/yourprofile
+www.linkedin.com/in/unnati-parmar
 
 Email:
-your-email@example.com
+unnatiparmar0156@gmail.com
 
 ---
 
