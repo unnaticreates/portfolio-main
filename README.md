@@ -1,4 +1,4 @@
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/d5bfe84d-8b6c-43e2-9a31-88a9f058abe2" /># 🌐 Unnati Parmar | Portfolio
+# 🌐 Unnati Parmar | Portfolio
 
 Welcome to my personal portfolio repository!
 
