@@ -1,65 +1,156 @@
-# My Portfolio Website - Overview 🚀
+# 🌐 Unnati Parmar | Portfolio
 
-This repository contains the open-source version of my personal portfolio website.  
-Feel free to explore the code and use it for learning and inspiration.
+Welcome to my personal portfolio repository!
 
----
+This repository contains the source code for my portfolio website, where I showcase my projects, technical skills, certifications, and learning journey as a Computer Science student with an interest in Web Development, UI/UX Design, and Artificial Intelligence.
 
-## ⚠️ Usage Notice
-
-This project is shared for learning purposes only.
-
-Please do NOT:
-- Clone or replicate the full website or design
-- Repost it with minor content changes
-- Use this project for commercial/client work
-- Create tutorials or content using this exact project
-
-If you use parts of the code, you must provide proper credit linking back to the original repository.
-
-Build your own version — don’t just copy.
-
-— Moncy Yohannan
+You are welcome to explore the code, learn from it, and get inspired.
 
 ---
 
-## 🛠️ Instructions
+# 👩‍💻 About Me
 
-I have modified the GSAP Club plugins using trial versions.  
-⚠️ Note: Trial plugins cannot be used for production or hosting.
+Hi, I'm **Unnati Parmar**.
 
-For official GSAP Club plugins, refer here:  
-https://gsap.com/docs/v3/Installation/
+I'm currently pursuing a Bachelor's degree in Computer Applications (BCA) and continuously improving my skills in frontend development, UI/UX design, and AI-powered applications.
 
----
-
-## ⚙️ Tech Stack
-
-React • TypeScript • GSAP • Three.js • WebGL • HTML • CSS • JavaScript
+I enjoy building clean, responsive, and user-friendly websites while exploring new technologies and improving my design skills.
 
 ---
 
-## 🎨 Assets Usage
+# 🚀 Portfolio Features
 
-Some 3D assets included in this repository are free to use for learning purposes.
+✨ Responsive Design
 
-However:
+✨ Modern User Interface
 
-- The original 3D avatar used on my live portfolio is NOT included in this repository
-- That avatar is a custom asset created over ~1 month
-- It is not open source and not available for reuse
+✨ Smooth Animations
 
-Any usage, extraction, or redistribution of that avatar from my live website is strictly prohibited.
+✨ Project Showcase
+
+✨ Skills Section
+
+✨ About Me
+
+✨ Contact Section
+
+✨ Mobile Friendly
+
+✨ Clean and Organized Code
 
 ---
 
-![Protfolio-Preview](https://github.com/user-attachments/assets/3c4557e7-6392-4928-b8a9-7b2476ef4edd)
+# 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- Responsive Web Design
+- Git
+- GitHub
+- VS Code
+
+*(Update this list whenever you add React, Tailwind, GSAP, Three.js, etc.)*
+
+---
+
+# 📂 Project Structure
+
+```
+Portfolio/
+│
+├── assets/
+├── images/
+├── css/
+├── js/
+├── index.html
+├── README.md
+└── ...
+```
+
+---
+
+# 📸 Portfolio Preview
+
+You can add screenshots of your portfolio here.
+
+Example:
+
+![Portfolio Preview](port.png)
+
+---
+
+# 🌐 Live Website
+
+GitHub Pages:
+
+https://unnaticreates.github.io/portfolio/
+
+
+---
+
+# 📌 Featured Projects
+
+Some projects showcased in this portfolio include:
+
+- 🍽️ Dine Ease – Restaurant Management System
+- 🩺 Diabetes Prediction System
+- 🤖 Machine Learning Projects
+- 🎨 UI/UX Design Concepts
+- 🌐 Frontend Development Projects
+
+More projects will be added as I continue learning.
+
+---
+
+# ⚠️ Usage Notice
+
+This repository is shared for educational and portfolio purposes.
+
+You are welcome to:
+
+- Learn from the code
+- Take inspiration from the design
+- Explore the project structure
+
+Please do **not**:
+
+- Copy the entire portfolio
+- Re-upload it as your own work
+- Use the design or content without permission
+- Remove credit and redistribute this project
+
+If you use any part of this project, please provide appropriate credit by linking back to this repository.
+
+Thank you for respecting my work.
+
+---
+
+# 📬 Contact
+
+GitHub:
+https://github.com/unnaticreates
+
+LinkedIn:
+www.linkedin.com/in/unnati-parmar
+
+Email:
+unnatiparmar0156@gmail.com
+
+---
+
+# ⭐ Support
+
+If you found this portfolio helpful or inspiring, consider giving this repository a ⭐.
+
+Your support is greatly appreciated!
 
 ---
 
 ## 📄 License
 
-This project is licensed under the Personal Portfolio License (PPL) v1.0.
+This project is intended for personal portfolio and educational purposes.
 
-See the LICENSE file for full details
+All original content, designs, and assets belong to **Unnati Parmar** unless otherwise stated.
 
+© 2026 Unnati Parmar. All Rights Reserved.
